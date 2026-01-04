@@ -1,0 +1,107 @@
+@import "colors/colors.rasi"
+
+* {
+  font: "Roboto 10";
+
+  background-color : transparent;
+  text-color       : @fg0;
+
+  margin  : 0;
+  padding : 0;
+  spacing : 0;
+}
+
+element-icon, element-text, scrollbar {
+  cursor: pointer;
+}
+
+window {
+  location : south;
+  width    : 600px;
+  height   : 600px;
+  y-offset : -4px;
+
+  background-color : @bg1;
+  border-radius    : 8px;
+}
+
+mainbox {
+  padding : 24px;
+  spacing : 24px;
+}
+
+inputbar {
+  padding          : 8px;
+  spacing          : 4px;
+  children         : [ icon-search, entry ];
+  border-radius    : 2px;
+  background-color : @bg2;
+}
+
+icon-search, entry, element-icon, element-text {
+  vertical-align: 0.5;
+}
+
+icon-search {
+  expand   : false;
+  filename : "search-symbolic";
+  size     : 24px;
+}
+
+entry {
+  font              : "Roboto 10";
+  placeholder       : "Type here to search";
+  placeholder-color : @fg1;
+}
+
+textbox {
+  padding          : 4px 8px;
+  background-color : @bg2;
+}
+
+listview {
+  columns       : 6;
+  spacing       : 8px;
+  fixed-height  : true;
+  fixed-columns : true;
+}
+
+element {
+  orientation   : vertical;
+  spacing       : 4px;
+  padding       : 8px;
+  border-radius : 2px;
+}
+
+element normal fg0 {
+  text-color: @fg0;
+}
+
+element normal active {
+  text-color: @fg2;
+}
+
+element alternate active {
+  text-color: @fg2;
+}
+
+element selected active {
+  text-color: @fg2;
+}
+
+element selected {
+  background-color: @bg3;
+}
+
+element selected fg0 {
+  background-color: @fg0;
+}
+
+element-icon {
+  size: 2em;
+}
+
+element-text {
+  text-color       : inherit;
+  horizontal-align : 0.5;
+}
