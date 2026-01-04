@@ -1,0 +1,46 @@
+core:
+  - base-devel
+  - git
+  - curl
+  - wget
+  - brightnessctl
+
+dev:
+  - neovim
+  - vscode
+
+desktop:
+  - rofi
+  - waybar
+  - hyprpolkitagent
+
+audio:
+  - audiorelay
+  - pavucontrol
+
+media:
+  - mpv
+
+network:
+  - firefox
+  - tor
+  - nyx
+  - torbrowser-launcher
+
+fonts:
+  - fontconfig
+  - ttf-dejavu
+  - ttf-liberation
+  - noto-fonts
+  - noto-fonts-cjk
+  - noto-fonts-emoji
+
+x11:
+  - libxrender
+  - libxext
+  - libxtst
+
+terminal:
+  - fzf
+  - stow
+  - tree
