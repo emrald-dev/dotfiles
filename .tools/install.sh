@@ -60,4 +60,7 @@ yay --version
 install_deps
 yay -Sy brave-bin
 
+# install uv python
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
 $HOME/Workspace/dotfiles/.tools/sym.sh
