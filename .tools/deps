@@ -5,6 +5,7 @@ wget
 brightnessctl
 neovim
 vscode
+rustup
 rofi
 waybar
 hyprpolkitagent

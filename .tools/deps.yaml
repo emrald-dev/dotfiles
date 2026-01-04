@@ -8,6 +8,7 @@ core:
 dev:
   - neovim
   - vscode
+  - rustup
 
 desktop:
   - rofi
@@ -34,6 +35,7 @@ fonts:
   - noto-fonts
   - noto-fonts-cjk
   - noto-fonts-emoji
+  - ttf-jetbrains-mono-nerd
 
 x11:
   - libxrender

@@ -1,0 +1,32 @@
+/* Background colors (palette1) */
+@define-color bg-dim    #EFEBD4;
+@define-color bg0       #FDF6E3;
+@define-color bg1       #F4F0D9;
+@define-color bg2       #EFEBD4;
+@define-color bg3       #E6E2CC;
+@define-color bg4       #E0DCC7;
+@define-color bg5       #BDC3AF;
+@define-color bg-visual #EAEDC8;
+@define-color bg-red    #FDE3DA;
+@define-color bg-yellow #FAEDCD;
+@define-color bg-green  #F0F1D2;
+@define-color bg-blue   #E9F0E9;
+@define-color bg-purple #F1DDD4;
+
+/* Foreground colors (palette2) */
+@define-color fg       #5C6A72;
+@define-color red      #F85552;
+@define-color orange   #F57D26;
+@define-color yellow   #DFA000;
+@define-color green    #8DA101;
+@define-color aqua     #35A77C;
+@define-color blue     #3A94C5;
+@define-color purple   #DF69BA;
+@define-color grey0    #A6B0A0;
+@define-color grey1    #939F91;
+@define-color grey2    #829181;
+
+/* Status line */
+@define-color statusline1 #93B259;
+@define-color statusline2 #708089;
+@define-color statusline3 #E66868;
