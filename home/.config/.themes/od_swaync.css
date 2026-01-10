@@ -1,0 +1,41 @@
+/* Backgrounds */
+@define-color bg0      #21252b;
+@define-color bg1      #282c34;
+@define-color bg2      #2c313c;
+@define-color bg3      #3b4048;
+
+@define-color fg0      #5c6370;
+@define-color fg1      #abb2bf;
+@define-color fg2      #c0c5ce;
+@define-color fg3      #dcdfe4;
+
+/* Primary colors */
+@define-color red      #e06c75;
+@define-color orange   #d19a66;
+@define-color yellow   #e5c07b;
+@define-color green    #98c379;
+@define-color cyan     #56b6c2;
+@define-color blue     #61afef;
+@define-color purple   #c678dd;
+
+/* Greys for borders/shadows */
+@define-color grey0    #1c1f26;
+@define-color grey1    #23252d;
+@define-color grey2    #2e313c;
+@define-color grey3    #393e4b;
+@define-color grey4    #444b5a;
+
+/* Accent colors for focus, notifications */
+@define-color accent_primary    $blue;
+@define-color accent_secondary  $purple;
+@define-color accent0           $red;
+@define-color accent1           $orange;
+@define-color accent2           $yellow;
+@define-color accent3           $green;
+@define-color accent4           $cyan;
+@define-color accent5           $blue;
+@define-color accent6           $purple;
+@define-color alert             $red;
+@define-color success           $green;
+@define-color warning           $yellow;
+@define-color info              $cyan;

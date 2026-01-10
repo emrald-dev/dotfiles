@@ -1,0 +1,43 @@
+* {
+    /* Backgrounds */
+    --bg0     = #21252b
+    --bg1     = #282c34
+    --bg2     = #2c313c
+    --bg3     = #3b4048
+
+    --fg0     = #5c6370
+    --fg1     = #abb2bf
+    --fg2     = #c0c5ce
+    --fg3     = #dcdfe4
+
+    /* Primary colors */
+    --red     = #e06c75
+    --orange  = #d19a66
+    --yellow  = #e5c07b
+    --green   = #98c379
+    --cyan    = #56b6c2
+    --blue    = #61afef
+    --purple  = #c678dd
+
+    /* Greys for borders/shadows */
+    --grey0   = #1c1f26
+    --grey1   = #23252d
+    --grey2   = #2e313c
+    --grey3   = #393e4b
+    --grey4   = #444b5a
+
+    /* Accent colors for focus, notifications */
+    --accent_primary   = $blue
+    --accent_secondary = $purple
+    --accent0          = $red;
+    --accent1          = $orange;
+    --accent2          = $yellow;
+    --accent3          = $green;
+    --accent4          = $cyan;
+    --accent5          = $blue;
+    --accent6          = $purple;
+    --alert            = $red
+    --success          = $green
+    --warning          = $yellow
+    --info             = $cyan
+}
